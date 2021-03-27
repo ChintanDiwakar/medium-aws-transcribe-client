@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Front End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.shoelace.style/1.0.0-beta24/shoelace.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            AWS TRANSCRIBE CLIENT SOCKET
+        </h1>
+
+        <hr />
+
+
+        <div id="error" class="isa_error"></div>
+        <div class="row">
+            <div class="col">
+                <button id="start-button" class="button-xl" title="Start Transcription">
+                    <i class="fa fa-microphone"></i> Start
+                </button>
+                <button id="stop-button" class="button-xl" title="Stop Transcription" disabled="true"><i
+                        class="fa fa-stop-circle"></i> Stop
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- CHECK THE CONSOLE FOR OUTPUT -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="dist/main.js"></script>
+</body>
+
+</html>
